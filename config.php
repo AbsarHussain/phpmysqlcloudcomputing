@@ -1,10 +1,10 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'phpcloudcomputingdb.ceea2phu180k.us-east-1.rds.amazonaws.com');
+define('DB_SERVER', 'phpmysqlcc.ceea2phu180k.us-east-1.rds.amazonaws.com');
 define('DB_USERNAME', 'admin');
-define('DB_PASSWORD', '12345678');
-define('DB_NAME', 'phpcloudcomputingdb');
+define('DB_PASSWORD', 'Abs159..');
+define('DB_NAME', 'demo');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
